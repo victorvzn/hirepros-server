@@ -1,0 +1,16 @@
+{
+  "name": "hirepros-server",
+  "version": "0.1.0",
+  "description": "Hire pros server(API)",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --port 3001 --watch db.json"
+  },
+  "author": "Victor Villazón <victorzn23@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "json-server": "^0.16.3",
+    "md5": "^2.3.0"
+  }
+}
